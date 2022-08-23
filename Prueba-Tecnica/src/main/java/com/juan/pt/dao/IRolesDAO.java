@@ -1,5 +1,7 @@
 package com.juan.pt.dao;
 
-public interface IRolesDAO {
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.juan.pt.dto.Roles;
+public interface IRolesDAO extends JpaRepository <Roles,Integer>{
 
 }
