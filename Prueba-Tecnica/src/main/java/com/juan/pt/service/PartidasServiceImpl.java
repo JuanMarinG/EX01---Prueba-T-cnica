@@ -30,6 +30,12 @@ public class PartidasServiceImpl implements IPartidasService{
 		// TODO Auto-generated method stub
 		ipartidasDAO.deleteById(id);
 	}
+
+	@Override
+	public Partidas partidasPorId(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 }

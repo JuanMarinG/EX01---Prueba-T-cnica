@@ -11,4 +11,6 @@ public interface IPartidasService {
 	public Partidas guardarPartidas (Partidas partidas);
 	//DELETE
 	public void  eliminarPartidas (int id);
+	//READ
+	public Partidas partidasPorId(int id);
 }
