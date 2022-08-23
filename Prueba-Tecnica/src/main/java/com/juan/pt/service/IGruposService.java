@@ -16,4 +16,7 @@ public interface IGruposService {
 	
 	//DELETE
 	public void eliminarGrupos(int id);
+	
+	//READ
+		public Grupos gruposPorId (int id);
 }

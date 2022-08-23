@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.juan.pt.dao.IGruposDAO;
 import com.juan.pt.dto.Grupos;
+import com.juan.pt.dto.Perfiles;
 
 @Service
 public class GruposServiceImpl implements IGruposService{
@@ -35,6 +36,11 @@ public class GruposServiceImpl implements IGruposService{
 	public void eliminarGrupos(int id) {
 		// TODO Auto-generated method stub
 		igruposDAO.deleteById(id);
+	}
+	@Override
+	public Grupos gruposPorId(int id) {
+		// TODO Auto-generated method stub
+		return igruposDAO.findById(id).get();
 	}
 
 	

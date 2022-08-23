@@ -3,7 +3,7 @@ package com.juan.pt.service;
 import java.util.List;
 
 import com.juan.pt.dto.Perfiles;
-import com.juan.pt.dto.Roles;
+
 
 public interface IPerfilesService {
 
