@@ -34,3 +34,11 @@ GET       /api/juegos/{id}
 PUT       /api/juegos/{id}
 DELETE    /api/juegos/{id}
 ```
+
+```
+Partidas
+GET       /api/partidas
+POST      /api/partidas
+GET       /api/partidas/{id}
+DELETE    /api/partidas/{id}
+```
