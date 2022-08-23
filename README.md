@@ -26,4 +26,11 @@ GET       /api/grupos/{id}
 PUT       /api/grupos/{id}
 DELETE    /api/grupos/{id}
 ```
-
+```
+Juegos
+GET       /api/juegos
+POST      /api/juegos
+GET       /api/juegos/{id}
+PUT       /api/juegos/{id}
+DELETE    /api/juegos/{id}
+```
